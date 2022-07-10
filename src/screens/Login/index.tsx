@@ -5,11 +5,11 @@ import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
 import { useState } from "react";
 
-export function Registration(){
+export function Login(){
   const [isLoadingRegistration, setIsLoadingRegistration] = useState(false)
 
   function handleIsLoading(){
-    setIsLoadingRegistration(!isLoadingRegistration)
+    setIsLoadingRegistration(isLoadingRegistration)
   }
 
   return(
@@ -39,9 +39,7 @@ export function Registration(){
         <View style={styles.containerButton}>
           <Button
             textButton="Registration"
-            onPress={handleIsLoading}
             isLoading={isLoadingRegistration}
-
           />
 
           <View style={styles.TitleContainer}>
