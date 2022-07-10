@@ -27,6 +27,16 @@ export const styles = StyleSheet.create({
     alignItems:"center",
   },
   TitleContainer:{
-    flexDirection:'row'
+    flexDirection:'row',
+    marginTop:15,
+  },
+  subTitleContainer: {
+    fontFamily: theme.fonts.fontRegular,
+    fontSize: 14,
+  },
+  titleButton:{
+    fontFamily: theme.fonts.fontBold,
+    fontSize: 14,
+    color: theme.colors.link
   }
 })

@@ -41,6 +41,15 @@ export function Registration(){
             textButton="Registration"
             isLoading={isLoadingRegistration}
           />
+
+          <View style={styles.TitleContainer}>
+            <Text style={styles.subTitleContainer}>Already have an acount? </Text>
+          
+            <TouchableOpacity>
+              <Text style={styles.titleButton}>Sign in </Text>
+            </TouchableOpacity>
+          
+          </View>
         </View>
        
       </ScrollView>
