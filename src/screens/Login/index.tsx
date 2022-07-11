@@ -1,6 +1,6 @@
 import { Image,  Text, View  , ScrollView  , TouchableOpacity} from "react-native";
 import {styles} from './styles'
-import RobotoImg from '../../assets/robot.png'
+import WomanImg from '../../assets/woman.png'
 import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
 import { useState } from "react";
@@ -15,9 +15,8 @@ export function Login(){
   return(
     <View style={styles.container}>
 
-      <Text style={styles.title}>WELCOME ONBOARD!</Text>
-      <Text style={styles.subTitle}>Let’s hope you meet of your tasks!</Text>
-      <Image source={RobotoImg} />
+      <Text style={styles.title}>WELCOME BACK!</Text>
+      <Image style={styles.image} source={WomanImg} />
 
 
    
@@ -29,10 +28,13 @@ export function Login(){
       >
         <View style={styles.containerInput}>
 
-          <Input placeholder="Enter your name"/>
-          <Input placeholder="Enter your name"/>
+          <Input placeholder="Enter your email or username"/>
           <Input placeholder="Enter Password"/>
-          <Input placeholder="Confirm Password"/>
+
+
+          <TouchableOpacity style={styles.buttonForgot}>
+            <Text style={styles.textForgot}>Forget Password</Text>
+          </TouchableOpacity>
 
         </View>
 
@@ -46,7 +48,7 @@ export function Login(){
             <Text style={styles.subTitleContainer}>Already have an acount? </Text>
           
             <TouchableOpacity>
-              <Text style={styles.titleButton}>Sign in </Text>
+              <Text style={styles.titleButton}>Sign Up </Text>
             </TouchableOpacity>
           
           </View>

@@ -5,6 +5,7 @@ import AppLoading from 'expo-app-loading';
 import { Poppins_400Regular, Poppins_700Bold, useFonts } from '@expo-google-fonts/poppins';
 import { Home } from './src/screens/Home';
 import { Registration } from './src/screens/Registration';
+import { Login } from './src/screens/Login';
 
 function HomeScreen() {
   return (
@@ -28,7 +29,7 @@ export default function App() {
   return (
     <View>
     
-      <Registration/>
+      <Login/>
       <StatusBar style="auto" />
     </View>
   );

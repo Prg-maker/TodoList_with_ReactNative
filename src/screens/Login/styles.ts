@@ -10,17 +10,15 @@ export const styles = StyleSheet.create({
   title:{
     fontSize:20,
     fontFamily: theme.fonts.fontBold,
+    marginBottom:15
   },
-  subTitle: {
-    fontFamily: theme.fonts.fontRegular,
-    fontSize: 16,
-    marginBottom:25
+  image:{
+    marginBottom:30
   },
   containerInput:{
     width: '100%',
     flex: 1,
     alignItems:'center',
-    marginTop:22
   },
   containerButton:{
     width: '100%',
@@ -28,7 +26,7 @@ export const styles = StyleSheet.create({
   },
   TitleContainer:{
     flexDirection:'row',
-    marginTop:15,
+    marginTop:10,
   },
   subTitleContainer: {
     fontFamily: theme.fonts.fontRegular,
@@ -38,5 +36,14 @@ export const styles = StyleSheet.create({
     fontFamily: theme.fonts.fontBold,
     fontSize: 14,
     color: theme.colors.link
+  },
+
+  buttonForgot:{
+    marginTop:31,
+  },
+  textForgot:{
+    fontFamily: theme.fonts.fontBold,
+    color:theme.colors.link,
+    fontSize:18
   }
 })
