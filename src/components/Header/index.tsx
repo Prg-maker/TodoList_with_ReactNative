@@ -7,7 +7,7 @@ export function Header(){
           style={styles.avatar} 
           source={{uri:'https://github.com/prg-maker.png'}}
         />
-        <Text style={styles.name}>Daniel</Text>
+        <Text style={styles.name}>Welcome Daniel</Text>
     </View>
   )
 }

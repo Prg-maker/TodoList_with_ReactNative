@@ -5,7 +5,22 @@ import theme from '../../theme'
 export const styles = StyleSheet.create({
   container:{
     height: '100%',
-    backgroundColor:theme.colors.background
+    backgroundColor:theme.colors.background,
+
   },
+  content:{
+    flex: 1,
+    marginHorizontal:14
+  },
+
+  tasks:{
+    fontFamily:theme.fonts.fontBold,
+    fontSize: 20,
+    marginLeft:9,
+    marginTop:14
+  },
+  containerTasks:{
+    
+  }
   
 })

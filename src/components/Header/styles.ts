@@ -11,7 +11,6 @@ export const styles = StyleSheet.create({
   avatar:{
     width: 115,
     height:115,
-    backgroundColor:"red",
     borderRadius:100
   },
   name:{
@@ -21,6 +20,6 @@ export const styles = StyleSheet.create({
     color: theme.colors.color_text_white,
     fontSize:22,
     
-
+    textAlign:'center'
   }
 })
