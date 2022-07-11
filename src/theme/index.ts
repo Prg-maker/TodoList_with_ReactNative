@@ -4,10 +4,12 @@ export default {
     color_button:'#9DC2CE',
     link:'#00C1FF',
     background:'#EEEEEE',
-    color_text_white:'#FFFFFF'
+    color_text_white:'#FFFFFF',
+    
   },
   fonts:{
     fontBold:'Poppins_700Bold',
-    fontRegular:'Poppins_400Regular'
+    fontRegular:'Poppins_400Regular',
+
   }
 }

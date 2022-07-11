@@ -15,12 +15,15 @@ export const styles = StyleSheet.create({
 
   tasks:{
     fontFamily:theme.fonts.fontBold,
-    fontSize: 20,
+    fontSize: 16,
     marginLeft:9,
     marginTop:14
   },
   containerTasks:{
-    
+    flex: 1,
+    backgroundColor:theme.colors.color_text_white,
+    borderTopLeftRadius:13,
+    borderTopRightRadius:13,
   }
   
 })

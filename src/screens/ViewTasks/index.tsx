@@ -12,7 +12,7 @@ export function ViewTasks(){
         <Text style={styles.tasks}>Tasks List</Text>
 
         <View style={styles.containerTasks}>
-
+          <Text>Daily Tasks</Text>
         </View>
       </View>
     </View>
