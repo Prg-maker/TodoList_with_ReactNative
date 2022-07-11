@@ -3,7 +3,8 @@ export default {
     color_text:'#000',
     color_button:'#9DC2CE',
     link:'#00C1FF',
-    
+    background:'#EEEEEE',
+    color_text_white:'#FFFFFF'
   },
   fonts:{
     fontBold:'Poppins_700Bold',

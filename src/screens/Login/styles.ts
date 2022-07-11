@@ -5,7 +5,8 @@ export const styles = StyleSheet.create({
   container:{
     height: '100%',
     alignItems:'center',
-    paddingTop: getBottomSpace() + 121
+    paddingTop: getBottomSpace() + 121,
+    backgroundColor:theme.colors.background
   },
   title:{
     fontSize:20,
