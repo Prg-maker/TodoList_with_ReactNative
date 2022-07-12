@@ -1,4 +1,4 @@
-import { Image, View , ImageBackground, Text, TouchableOpacity , Modal } from "react-native";
+import { Image, View , ImageBackground, Text, TouchableOpacity ,  } from "react-native";
 
 import { Header } from "../../components/Header";
 import { ModalAllTasks } from "../../components/ModalAllTasks";
