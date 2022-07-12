@@ -1,29 +1,23 @@
-import { Image, View , ImageBackground, Text, TouchableOpacity } from "react-native";
-import { Header } from "../../components/Header";
-import {styles} from './styles'
-import XButtonImg from '../../assets/XButton.png'
+import { Image, View , ImageBackground, Text, TouchableOpacity , Modal } from "react-native";
 
+import { Header } from "../../components/Header";
+import { ModalAllTasks } from "../../components/ModalAllTasks";
+import {styles} from './styles'
 export function ViewTasks(){
 
 
   return(
+
     <View style={styles.container}>
       <Header/>
 
       <View style={styles.content}>
         <Text style={styles.tasks}>Tasks List</Text>
 
-        <View style={styles.containerTasks}>
-
-          <View style={styles.headerTasks}>
-            <Text style={styles.text}>Daily Tasks</Text>
-            <TouchableOpacity>
-              <Image source={XButtonImg}/>
-            </TouchableOpacity>
-          </View>
-
-        </View>
+        <ModalAllTasks/>
+        
       </View>
     </View>
+
   )
 }
