@@ -5,6 +5,7 @@ export default {
     link:'#00C1FF',
     background:'#EEEEEE',
     color_text_white:'#FFFFFF',
+    color_text_black:"rgba(0, 0, 0, 0.7)"
     
   },
   fonts:{

@@ -1,6 +1,8 @@
-import { Image, View , ImageBackground, Text } from "react-native";
+import { Image, View , ImageBackground, Text, TouchableOpacity } from "react-native";
 import { Header } from "../../components/Header";
 import {styles} from './styles'
+import XButtonImg from '../../assets/XButton.png'
+
 export function ViewTasks(){
 
 
@@ -12,7 +14,14 @@ export function ViewTasks(){
         <Text style={styles.tasks}>Tasks List</Text>
 
         <View style={styles.containerTasks}>
-          <Text>Daily Tasks</Text>
+
+          <View style={styles.headerTasks}>
+            <Text style={styles.text}>Daily Tasks</Text>
+            <TouchableOpacity>
+              <Image source={XButtonImg}/>
+            </TouchableOpacity>
+          </View>
+
         </View>
       </View>
     </View>
