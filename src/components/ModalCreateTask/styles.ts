@@ -14,5 +14,26 @@ export const styles = StyleSheet.create({
     backgroundColor: theme.colors.color_text_white,
     borderTopLeftRadius: 13,
     borderTopRightRadius: 13,
+    paddingHorizontal:37
+  },
+  header:{
+    marginTop:30,
+    marginBottom:25
+  },
+
+  createTask:{
+    fontFamily:theme.fonts.fontRegular,
+    fontSize:16,
+    marginBottom:44
+
+  },
+  input:{
+    height: 55,
+
+    borderWidth:2 ,
+    borderColor:'black',
+    borderRadius:10,
+    fontFamily:theme.fonts.fontRegular,
+    paddingLeft:20
   }
 })
