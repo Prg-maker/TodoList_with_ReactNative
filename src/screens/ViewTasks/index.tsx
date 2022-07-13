@@ -2,6 +2,7 @@ import { Image, View , ImageBackground, Text, TouchableOpacity ,  } from "react-
 
 import { Header } from "../../components/Header";
 import { ModalAllTasks } from "../../components/ModalAllTasks";
+import { ModalCreateTask } from "../../components/ModalCreateTask";
 import {styles} from './styles'
 export function ViewTasks(){
 
@@ -14,7 +15,7 @@ export function ViewTasks(){
       <View style={styles.content}>
         <Text style={styles.tasks}>Tasks List</Text>
 
-        <ModalAllTasks/>
+        <ModalCreateTask/>
         
       </View>
     </View>
