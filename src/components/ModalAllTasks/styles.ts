@@ -26,7 +26,12 @@ export const styles = StyleSheet.create({
     justifyContent: "space-between",
   },
   text: {
-    fontFamily: theme.fonts.fontRegular,
+    fontFamily: theme.fonts.fontBold,
     color: theme.colors.color_text_black,
+    fontSize:18
   },
+  buttonIcon:{
+    position: 'relative',
+    bottom: 3
+  }
 });
