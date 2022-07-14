@@ -1,6 +1,8 @@
 import { Text, View , StyleSheet, ScrollView} from "react-native";
 import theme from "../../theme";
 import { CheckBox } from "../CheckBox";
+
+
 export function Tasks(){
   return(
 

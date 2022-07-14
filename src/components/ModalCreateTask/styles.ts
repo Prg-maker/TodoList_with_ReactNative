@@ -20,6 +20,9 @@ export const styles = StyleSheet.create({
     marginTop:30,
     marginBottom:25
   },
+  button:{
+    width: '15%'
+  },
 
   createTask:{
     fontFamily:theme.fonts.fontRegular,

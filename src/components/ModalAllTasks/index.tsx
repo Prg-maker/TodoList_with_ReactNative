@@ -6,19 +6,20 @@ import { useState } from "react";
 import { Tasks } from "../Tasks";
 
 type Props = ModalProps & {
-
+  OpenModal: () => void
 }
 
-export function ModalAllTasks({...rest}:Props){
+export function ModalAllTasks({OpenModal ,...rest}:Props){
 
   const [toggleCheckBox, setToggleCheckBox] = useState(false)
+
   return(
     <Modal transparent   animationType="slide" statusBarTranslucent  {...rest}>
       <View style={styles.containerTasks}>
 
       <View style={styles.headerTasks}>
         <Text style={styles.text}>Daily Tasks</Text>
-        <TouchableOpacity style={styles.buttonIcon}>
+        <TouchableOpacity onPress={OpenModal} style={styles.buttonIcon}>
           <Icon name="add-circle-outline" size={30}/>
         </TouchableOpacity>
       </View>
